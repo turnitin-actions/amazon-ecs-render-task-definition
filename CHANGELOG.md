@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.5.1](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.5.0...v1.5.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* Downgrade warning logs for fetch task definition feature ([#323](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/323)) ([b33b6ea](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/b33b6ea7210b1bbbd20b61f96a9c632d4886465a))
+
+## [1.5.0](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.4.0...v1.5.0) (2024-08-08)
+
+
+### Features
+
+* add new feature to fetch task definition using task definition arn or name([#311](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/311)) ([e246ecd](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/e246ecdd89c8de5a4a8c248830566528cbed06dd))
+
+## [1.4.0](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.3.0...v1.4.0) (2024-07-18)
+
+
+### Features
+
+* Adds env-files input to the github action ([a40f6ea](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/a40f6eaad3be711b605d54fefc660fbd40925fdb))
+
+## [1.3.0](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.2.0...v1.3.0) (2024-05-07)
+
+
+### Features
+
+* support command override ([#284](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/284)) ([9259793](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/925979370e7456028a520e0dad54854d027a3808))
+
+## [1.2.0](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.3...v1.2.0) (2023-11-14)
+
+
+### Features
+
+* ability to configure log driver and log options ([#255](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/255)) ([c6f3dfb](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/c6f3dfbdd9990283e47c9e0cf46393ea13f1541b))
+* support dockerLabels ([#274](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/274)) ([b9718e5](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/b9718e5f28bbcaeae2944140d52452f71601a622))
+
+
+### Bug Fixes
+
+* update ncc and minor workflow enhancements ([#269](https://github.com/aws-actions/amazon-ecs-render-task-definition/issues/269)) ([3e9a743](https://github.com/aws-actions/amazon-ecs-render-task-definition/commit/3e9a74317f3b8a55dc9b95b57a1cac50099ed343))
+
+### [1.1.3](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.2...v1.1.3) (2023-01-17)
+
 ### [1.1.2](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.1...v1.1.2) (2022-10-21)
 
 ### [1.1.1](https://github.com/aws-actions/amazon-ecs-render-task-definition/compare/v1.1.0...v1.1.1) (2022-01-18)
